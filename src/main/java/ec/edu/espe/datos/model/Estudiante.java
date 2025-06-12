@@ -93,6 +93,6 @@ public class Estudiante {
      */
     @Override
     public String toString() {
-        return "Estudiante{id=" + id + ", nombre='" + nombre + "', edad=" + edad + "}";
+        return String.format("ID: %d - Nombre: %s - Edad: %d", id, nombre, edad);
     }
 }
